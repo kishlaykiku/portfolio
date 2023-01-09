@@ -1,0 +1,160 @@
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Monda', sans-serif;
+    /* font-family: 'Changa', sans-serif; */
+}
+
+
+/* ############################################# ELEMENT CSS #############################################*/
+
+span {
+    text-decoration: underline;
+}
+
+a {
+    color: #f0dc9f;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #5F8D4E;
+    line-height: 2;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    /* font-weight: normal; */
+    color: #5F8D4E;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #285430;
+}
+
+hr {
+    width: 5%;
+    border-style: dotted none none none;
+    border-width: 8px;
+    color: #9fbb97;
+    margin: 100px auto;
+}
+
+p {
+    line-height: 2;
+}
+
+/* ############################################# CLASS CSS #############################################*/
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-container {
+    background-color: #E5D9B6;
+    position: relative;
+    padding-top: 15px;
+}
+
+.middle-container {
+    /* background-color: #A4BE7B; */
+    /* padding: 60px; */
+    margin: 100px auto;
+}
+
+.profile {
+    margin: auto;
+    width: 50%;
+}
+
+.skills {
+    
+}
+
+.skill-row {
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+.profile-img {
+    width: 20%;
+}
+
+.web-img {
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+}
+
+.game-img {
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-me {
+    width: 50%;
+    margin: auto;
+}
+
+.contact-description {
+    margin: 50px;
+}
+
+.btn {
+    background: #8bb18e;
+    background-image: -webkit-linear-gradient(top, #8bb18e, #4c5232);
+    background-image: -moz-linear-gradient(top, #8bb18e, #4c5232);
+    background-image: -ms-linear-gradient(top, #8bb18e, #4c5232);
+    background-image: -o-linear-gradient(top, #8bb18e, #4c5232);
+    background-image: linear-gradient(to bottom, #8bb18e, #4c5232);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #68826a;
+    background-image: -webkit-linear-gradient(top, #68826a, #323621);
+    background-image: -moz-linear-gradient(top, #68826a, #323621);
+    background-image: -ms-linear-gradient(top, #68826a, #323621);
+    background-image: -o-linear-gradient(top, #68826a, #323621);
+    background-image: linear-gradient(to bottom, #68826a, #323621);
+    text-decoration: none;
+  }
+
+.bottom-container {
+    background-color: #8bb18e;
+    color: #EAF6F6;
+    padding: 50px;
+}
+
+.footer-link {
+    padding: 20px;
+}
+
+.footer-description {
+    margin: 0;
+    margin-top: 25px;
+}
