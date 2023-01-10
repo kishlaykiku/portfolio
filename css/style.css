@@ -16,6 +16,12 @@ span {
 a {
     color: #f0dc9f;
     text-decoration: none;
+    transition-duration: 200ms;
+}
+
+a:hover {
+    color: #fff;
+    transition-duration: 200ms;
 }
 
 h1 {
@@ -155,15 +161,14 @@ p {
 .bottom-container {
     background-color: #8bb18e;
     color: #EAF6F6;
-    padding: 50px;
+    padding: 50px 0 20px 0;
 }
 
 .footer-link {
-    padding: 20px;
+    margin: 20px;
 }
 
-.footer-description {
-    margin: 0;
-    margin-top: 25px;
+.copyright {
+    color: #f4efe5;
     font-size: smaller;
 }
