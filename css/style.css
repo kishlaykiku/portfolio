@@ -81,9 +81,9 @@ p {
     width: 50%;
 }
 
-.skills {
+/* .skills {
     
-}
+} */
 
 .skill-row {
     margin: 100px auto 100px auto;
@@ -117,6 +117,12 @@ p {
     margin: 50px;
 }
 
+.contact-btn {
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+}
+
 .btn {
     background: #8bb18e;
     background-image: -webkit-linear-gradient(top, #8bb18e, #4c5232);
@@ -130,7 +136,9 @@ p {
     font-family: Arial;
     color: #ffffff;
     font-size: 20px;
-    padding: 10px 20px 10px 20px;
+    width: 150px;
+    height: 40px;
+    line-height: 2em;
     text-decoration: none;
   }
   
